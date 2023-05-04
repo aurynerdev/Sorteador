@@ -6,9 +6,6 @@ const nomes = [
     name: 'Fin'
   },
   {
-    name: 'Lymei'
-  },
-  {
     name: 'Leleo'
   },
   {
@@ -17,11 +14,7 @@ const nomes = [
   {
     name: 'NoHaTz'
   },
-  {
-    name: 'Dark'
-  },
 ]
-
 
 function sorteio() {
   const sorteio = Math.round((Math.random() * (nomes.length - 1)))
